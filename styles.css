@@ -1,0 +1,104 @@
+/* General Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background-color: #081F5C;
+    color: #F7F2EB;
+}
+
+/* Header Styling */
+#header {
+    text-align: center;
+    padding: 20px;
+}
+#header h1 {
+    font-family: 'Inter', sans-serif;
+    color: #F7F2EB;
+}
+#header img {
+    margin-top: 20px;
+    max-width: 200px; /* Adjust the size of the image */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Navigation Bar */
+#nav {
+    background-color: #F7F2EB;
+    padding: 10px;
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#nav li {
+    margin: 0 15px;
+}
+#nav a {
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+    color: #081F5C;
+}
+
+/* Main Section */
+#main {
+    background-color: #D0E3FF;
+    padding: 20px;
+    text-align: center;
+}
+#main h1 {
+    font-family: 'Inter', sans-serif;
+    color: #081F5C;
+}
+#main p {
+    font-family: 'Source Code Pro', monospace;
+    color: #081F5C;
+}
+
+/* About Section */
+#about {
+    background-color: #7096D1;
+    padding: 20px;
+    color: #F7F2EB;
+    text-align: center;
+}
+#about h2 {
+    font-family: 'Inter', sans-serif;
+}
+#about p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #7096D1;
+    padding: 20px;
+    color: #F7F2EB;
+    text-align: center;
+}
+#portfolio h2 {
+    font-family: 'Inter', sans-serif;
+}
+#portfolio p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Portfolio Images */
+#portfolio img {
+    max-width: 30%; /* Adjust the size of portfolio images */
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+#footer {
+    background-color: #F7F2EB;
+    color: #081F5C;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Source Code Pro', monospace;
+}
